@@ -1,0 +1,51 @@
+{
+  "original_rows": 2565389,
+  "original_columns": 37,
+  "removed_metadata_columns": [
+    "Alarm_Code",
+    "dataset_id",
+    "excel_row_number",
+    "logged_at",
+    "previous_dataset_id",
+    "previous_excel_row_number",
+    "previous_logged_at",
+    "time_gap_seconds"
+  ],
+  "removed_empty_columns": [
+    "tag27",
+    "tag28",
+    "tag29",
+    "tag30"
+  ],
+  "removed_non_numeric_columns": [],
+  "removed_constant_columns": [
+    "Loadcell_Weight_SV",
+    "Dancer_Pressure_SV",
+    "Dancer_Weight_SV",
+    "PID_P",
+    "PID_I",
+    "PID_D",
+    "PID_Limit",
+    "Speed_Limit",
+    "Infeed_Input_Scale",
+    "Loadcell_Deadzone",
+    "Loadcell_Allowtime",
+    "Single_Speed_SV",
+    "SINGLE_LIMIT_TRQ"
+  ],
+  "final_feature_count": 12,
+  "final_features": [
+    "Infeed_Speed_SV",
+    "Infeed_Speed_PV",
+    "INFEED_TORQUE",
+    "Loadcell_Weight_PV",
+    "Dancer_Pressure_PV",
+    "Dancer_Gyro_Position",
+    "Weaving_Line_Speed",
+    "Loadcell_PV",
+    "Motor_RPM",
+    "Weaving_Run",
+    "Temperature_PV",
+    "Humidity_PV"
+  ]
+}
