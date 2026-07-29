@@ -1,0 +1,15 @@
+[
+  "Loadcell_Weight_SV",
+  "Dancer_Pressure_SV",
+  "Dancer_Weight_SV",
+  "PID_P",
+  "PID_I",
+  "PID_D",
+  "PID_Limit",
+  "Speed_Limit",
+  "Infeed_Input_Scale",
+  "Loadcell_Deadzone",
+  "Loadcell_Allowtime",
+  "Single_Speed_SV",
+  "SINGLE_LIMIT_TRQ"
+]
