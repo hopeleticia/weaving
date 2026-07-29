@@ -1,0 +1,16 @@
+{
+  "train_files": [
+    "plc_log_20260708.csv",
+    "plc_log_20260709.csv",
+    "plc_log_20260710.csv",
+    "plc_log_20260711.csv",
+    "plc_log_20260712.csv",
+    "plc_log_20260713.csv"
+  ],
+  "validation_files": [
+    "plc_log_20260714.csv"
+  ],
+  "test_files": [
+    "plc_log_20260715.csv"
+  ]
+}

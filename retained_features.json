@@ -1,0 +1,14 @@
+[
+  "Infeed_Speed_SV",
+  "Infeed_Speed_PV",
+  "INFEED_TORQUE",
+  "Loadcell_Weight_PV",
+  "Dancer_Pressure_PV",
+  "Dancer_Gyro_Position",
+  "Weaving_Line_Speed",
+  "Loadcell_PV",
+  "Motor_RPM",
+  "Weaving_Run",
+  "Temperature_PV",
+  "Humidity_PV"
+]
