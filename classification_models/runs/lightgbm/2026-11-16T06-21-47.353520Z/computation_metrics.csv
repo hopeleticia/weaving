@@ -1,0 +1,2 @@
+model,data_loading_seconds,training_seconds,validation_prediction_seconds,test_prediction_seconds,threshold_selection_seconds,total_elapsed_seconds,train_rows,validation_rows,test_rows,test_prediction_ms_per_1000_rows
+lightgbm,19.69107440020889,7.250819799955934,22.44583690026775,13.56723630009219,1.1553640998899937,101.1148158996366,1080200,13338574,7849549,1.728409657687619

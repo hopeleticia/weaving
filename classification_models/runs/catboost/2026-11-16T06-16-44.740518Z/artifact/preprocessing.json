@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "model": "catboost",
+  "model_file": "model.cbm",
+  "features": [
+    "Infeed_Speed_PV",
+    "Weaving_Line_Speed",
+    "Motor_RPM",
+    "INFEED_TORQUE",
+    "Loadcell_Weight_PV",
+    "Loadcell_PV",
+    "Dancer_Pressure_PV",
+    "Dancer_Gyro_Position",
+    "Temperature_PV",
+    "Humidity_PV"
+  ],
+  "medians": [
+    0.25999999046325684,
+    0.25999999046325684,
+    39.4900016784668,
+    1.7000000476837158,
+    90.0,
+    90.0,
+    1.899999976158142,
+    24.0,
+    27.5,
+    56.5
+  ],
+  "threshold": 0.9998239544144935,
+  "decision_rule": "probability >= threshold",
+  "labels": {
+    "0": "normal",
+    "1": "anomaly"
+  },
+  "alarm_mapping": {
+    "0": 0,
+    "2": 1,
+    "8": 1
+  },
+  "inputs": "Already signed-decoded and engineering-scaled; do not scale again",
+  "model_sha256": "644531f6c97d633b98a3c27b2d8e631ba81652c06025b0783f3525f442fb7721",
+  "versions": {
+    "catboost": "1.2.10",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3",
+    "scikit-learn": "1.9.0"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "sources": {
+    "catboost": {
+      "run": "2026-11-16T06-16-44.740518Z",
+      "metrics_file": "D:\\CODE\\Weaving_Project\\November\\certification_handoff_classifiers\\runs\\catboost\\2026-11-16T06-16-44.740518Z\\metrics.json"
+    },
+    "xgboost": {
+      "run": "2026-11-16T06-20-24.236911Z",
+      "metrics_file": "D:\\CODE\\Weaving_Project\\November\\certification_handoff_classifiers\\runs\\xgboost\\2026-11-16T06-20-24.236911Z\\metrics.json"
+    },
+    "lightgbm": {
+      "run": "2026-11-16T06-21-47.353520Z",
+      "metrics_file": "D:\\CODE\\Weaving_Project\\November\\certification_handoff_classifiers\\runs\\lightgbm\\2026-11-16T06-21-47.353520Z\\metrics.json"
+    },
+    "decision_tree": {
+      "run": "2026-11-17T03-50-03.585358Z",
+      "metrics_file": "D:\\CODE\\Weaving_Project\\November\\certification_handoff_classifiers\\runs\\decision_tree\\2026-11-17T03-50-03.585358Z\\metrics.json"
+    }
+  },
+  "f1_target_percent": 85.0,
+  "selection": "Explicit overrides or latest timestamp per model; not highest score",
+  "note": "Matching filenames and row counts do not verify identical dataset contents."
+}

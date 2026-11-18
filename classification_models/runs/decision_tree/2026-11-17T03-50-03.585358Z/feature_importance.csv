@@ -1,0 +1,11 @@
+feature,importance,importance_percent,importance_type
+Weaving_Line_Speed,0.9992983004422564,99.92983004422564,normalized_impurity_decrease
+Loadcell_PV,0.000566919269022369,0.0566919269022369,normalized_impurity_decrease
+Dancer_Pressure_PV,0.00013478028872123047,0.013478028872123047,normalized_impurity_decrease
+Infeed_Speed_PV,0.0,0.0,normalized_impurity_decrease
+INFEED_TORQUE,0.0,0.0,normalized_impurity_decrease
+Motor_RPM,0.0,0.0,normalized_impurity_decrease
+Loadcell_Weight_PV,0.0,0.0,normalized_impurity_decrease
+Dancer_Gyro_Position,0.0,0.0,normalized_impurity_decrease
+Temperature_PV,0.0,0.0,normalized_impurity_decrease
+Humidity_PV,0.0,0.0,normalized_impurity_decrease

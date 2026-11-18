@@ -1,0 +1,11 @@
+feature,importance,importance_percent,importance_type
+Weaving_Line_Speed,77.81758462390317,77.81758462390317,PredictionValuesChange
+Infeed_Speed_PV,20.65191030306748,20.65191030306748,PredictionValuesChange
+Loadcell_PV,0.7046020445006456,0.7046020445006456,PredictionValuesChange
+Dancer_Pressure_PV,0.36098205684941587,0.3609820568494159,PredictionValuesChange
+Loadcell_Weight_PV,0.2987655861279934,0.2987655861279934,PredictionValuesChange
+Humidity_PV,0.060397450425549774,0.060397450425549774,PredictionValuesChange
+Motor_RPM,0.04082011000002359,0.04082011000002359,PredictionValuesChange
+INFEED_TORQUE,0.023198645245521714,0.023198645245521714,PredictionValuesChange
+Temperature_PV,0.02270553914233821,0.02270553914233821,PredictionValuesChange
+Dancer_Gyro_Position,0.019033640737851954,0.019033640737851954,PredictionValuesChange

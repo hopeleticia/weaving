@@ -1,0 +1,13 @@
+|--- Weaving_Line_Speed <= 0.00
+|   |--- Loadcell_PV <= 82.35
+|   |   |--- class: 0
+|   |--- Loadcell_PV >  82.35
+|   |   |--- Dancer_Pressure_PV <= 1.72
+|   |   |   |--- Loadcell_PV <= 87.70
+|   |   |   |   |--- class: 0
+|   |   |   |--- Loadcell_PV >  87.70
+|   |   |   |   |--- class: 1
+|   |   |--- Dancer_Pressure_PV >  1.72
+|   |   |   |--- class: 1
+|--- Weaving_Line_Speed >  0.00
+|   |--- class: 0

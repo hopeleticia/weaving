@@ -1,0 +1,2 @@
+model,data_loading_seconds,training_seconds,validation_prediction_seconds,test_prediction_seconds,threshold_selection_seconds,total_elapsed_seconds,train_rows,validation_rows,test_rows,test_prediction_ms_per_1000_rows
+catboost,43.17906010011211,112.66748459963128,1.443014399614185,0.6021774997934699,0.6410366999916732,201.82524910010397,1080200,13338574,7849549,0.07671491697083105

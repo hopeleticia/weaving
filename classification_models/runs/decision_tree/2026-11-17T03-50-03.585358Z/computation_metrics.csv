@@ -1,0 +1,2 @@
+model,data_loading_seconds,training_seconds,validation_prediction_seconds,test_prediction_seconds,threshold_selection_seconds,total_elapsed_seconds,train_rows,validation_rows,test_rows,test_prediction_ms_per_1000_rows
+decision_tree,29.564312499947846,0.4423244995996356,0.2426839000545442,0.09344049962237477,0.3130514998920262,69.77189380023628,1080200,13338574,7849549,0.011903932266984354

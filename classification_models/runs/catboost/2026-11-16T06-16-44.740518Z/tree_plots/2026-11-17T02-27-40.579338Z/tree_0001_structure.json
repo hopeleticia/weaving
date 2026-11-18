@@ -1,0 +1,84 @@
+{
+  "model": "catboost",
+  "source_run": "2026-11-16T06-16-44.740518Z",
+  "model_sha256": "644531f6c97d633b98a3c27b2d8e631ba81652c06025b0783f3525f442fb7721",
+  "tree_index": 0,
+  "ensemble_trees": 800,
+  "features": [
+    "Infeed_Speed_PV",
+    "Weaving_Line_Speed",
+    "Motor_RPM",
+    "INFEED_TORQUE",
+    "Loadcell_Weight_PV",
+    "Loadcell_PV",
+    "Dancer_Pressure_PV",
+    "Dancer_Gyro_Position",
+    "Temperature_PV",
+    "Humidity_PV"
+  ],
+  "display_max_depth": 3,
+  "tree": {
+    "leaf_values": [
+      0,
+      0,
+      -0.24280192556713057,
+      -0.11919897295342802,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -0.29169917416194857,
+      -0.34226507697635106,
+      0.2834656546503158,
+      -0.28069958939271317,
+      0.33155163702612916,
+      -0.5499459452122264
+    ],
+    "leaf_weights": [
+      0,
+      0,
+      94,
+      7,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      283,
+      927,
+      234.33333921432495,
+      220,
+      933895.6900734901,
+      930139
+    ],
+    "splits": [
+      {
+        "border": 0.04500000178813934,
+        "float_feature_index": 1,
+        "split_index": 22,
+        "split_type": "FloatFeature"
+      },
+      {
+        "border": 26.895000457763672,
+        "float_feature_index": 8,
+        "split_index": 274,
+        "split_type": "FloatFeature"
+      },
+      {
+        "border": 82.94999694824219,
+        "float_feature_index": 5,
+        "split_index": 179,
+        "split_type": "FloatFeature"
+      },
+      {
+        "border": 77.35000610351562,
+        "float_feature_index": 4,
+        "split_index": 74,
+        "split_type": "FloatFeature"
+      }
+    ]
+  }
+}
