@@ -108,25 +108,6 @@ events are not interchangeable. Repeatedly examined datasets provide retrospecti
 experimental evidence, not a new independent certification test.
 
 
-
-## Contributing Model Experiments
-
-Each team member should provide a self-contained model folder or notebook with:
-
-- A brief description of the task, architecture, and implementation status.
-- Configurable dataset paths rather than contributor-specific absolute paths.
-- Dependencies and instructions for training, evaluation, and saved-model use.
-- Dataset versions, cleaning rules, features, labels, and split assignments.
-- Sequence length, stride, forecast horizon, and gap handling where applicable.
-- Training settings, random seeds, and the validation-based selection procedure.
-- Evaluation metrics, computation times, and the units used for reporting results.
-- Saved model and preprocessing information when sharing a fitted implementation.
-
-For direct comparisons, agree on a common evaluation protocol before comparing
-results. Document necessary model-specific differences rather than assuming
-all models use identical inputs or score the same observations. New contributions
-can extend the model overview without replacing other team members' work.
-
 ## Using and Sharing the Work
 
 1. Choose a workflow and read its local documentation.
@@ -141,5 +122,4 @@ authorization.
 
 When distributing a fitted model, include its preprocessing settings, feature
 order, decision threshold, environment requirements, and matching evaluation
-reports. Software checks of saving and loading do not establish detection
-accuracy or certification readiness.
+reports.
